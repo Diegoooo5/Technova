@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechNova tecnologia que funciona </title>
+  <link rel="stylesheet" href="style4.css" />
+</head>
+<body>
+    
+  <!-- SECCION: HEADER -->
+  <header id="site-header">
+    <div class="logo">TechNova</div>
+
+     Menu hamburguesa (solo CSS) 
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+    <label for="menu-toggle" class="hamburguesa">&#9776;</label>
+
+    <nav id="main-nav">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- SECCION: HERO -->
+    <section id="inicio" class="hero">
+      <h1>Soluciones tecnologicas para tu empresa</h1>
+      <p>
+        Transformamos negocios a traves de tecnologia de vanguardia. Desde
+        desarrollo web hasta ciberseguridad y cloud, somos el socio tecnologico
+        que tu empresa necesita para crecer en la era digital.
+      </p>
+      <a href="#servicios" class="btn-cta">Ver servicios</a>
+    </section>
+
+    <!-- SECCION: SERVICIOS -->
+    <section id="servicios">
+      <h2>Nuestros Servicios</h2>
+      <div class="servicios-grid">
+
+        <article class="servicio-card">
+          <h3>Desarrollo Web</h3>
+          <p>
+            Creamos sitios y aplicaciones web modernas, rapidas y accesibles
+            adaptadas a las necesidades de tu negocio. Trabajamos con las
+            tecnologias mas actuales del mercado para garantizar resultados
+            de alto impacto.
+          </p>
+          <a href="#" class="btn-secundario">Saber mas</a>
+        </article>
+
+        <article class="servicio-card">
+          <h3>Ciberseguridad</h3>
+          <p>
+            Protegemos los datos e infraestructura de tu empresa frente a
+            amenazas digitales con soluciones proactivas y monitoreo continuo.
+            Nuestro equipo responde ante incidentes las 24 horas del dia.
+          </p>
+          <a href="#" class="btn-secundario">Saber mas</a>
+        </article>
+
+        <article class="servicio-card">
+          <h3>Cloud Computing</h3>
+          <p>
+            Migramos y gestionamos tu infraestructura en la nube para reducir
+            costos operativos y escalar tu negocio sin limites. Trabajamos con
+            AWS, Azure y Google Cloud segun tus necesidades.
+          </p>
+          <a href="#" class="btn-secundario">Saber mas</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SECCION: ASIDE + NOSOTROS -->
+    <div class="fila-mixta">
+
+      <aside id="stats">
+        <h2>En numeros</h2>
+        <ul>
+          <li>+500 clientes</li>
+          <li>10 años de experiencia</li>
+          <li>98% de satisfaccion</li>
+        </ul>
+      </aside>
+
+      <section id="nosotros">
+        <h2>Quienes somos</h2>
+        <p>
+          TechNova nacio en 2015 con la vision de democratizar el acceso a
+          tecnologia de calidad para empresas de todos los tamanos. Desde
+          nuestros inicios en Santiago, hemos crecido hasta contar con un
+          equipo de mas de 80 profesionales especializados en distintas
+          areas de la tecnologia.
+        </p>
+        <p>
+          Hoy operamos en Chile, Argentina y Colombia, ayudando a cientos
+          de empresas a digitalizar sus procesos, proteger su informacion y
+          escalar sus operaciones en la nube. Nuestra cultura se basa en
+          la innovacion continua, la transparencia y el compromiso con los
+          resultados de nuestros clientes.
+        </p>
+      </section>
+
+    </div>
+
+    <!-- SECCION: CONTACTO -->
+    <section id="contacto">
+      <h2>Contactanos</h2>
+      <form id="form-contacto">
+
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" />
+
+        <label for="correo">Correo electronico</label>
+        <input type="email" id="correo" name="correo" placeholder="tuemail@ejemplo.com" />
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos en qué podemos ayudarte..."></textarea>
+
+        <button type="submit">Enviar mensaje</button>
+
+      </form>
+    </section>
+
+  </main>
+
+  <!-- SECCION: FOOTER -->
+  <footer id="site-footer">
+    <p>&copy; 2025 TechNova SpA | Todos los derechos reservados</p>
+    <nav class="footer-nav">
+      <a href="#">Privacidad</a>
+      <a href="#">Terminos</a>
+      <a href="#">Sitemap</a>
+    </nav>
+  </footer>
+
+</body>
+</html>
